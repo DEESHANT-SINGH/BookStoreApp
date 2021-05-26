@@ -1,0 +1,45 @@
+Project = BookStore
+The program that allows the user to store information about books.
+I have also build a executable file of this program i.e. (.exe) apart from building a .py file that we can run on windows.
+So, what is the advantage of this .exe file is that you can give this program to anyone and they don't need to have python installed in their computer. 
+
+Build using = tkinter, SQLite 3 library which is used to interact with SQLite database.
+
+Design = 
+(1). GUI
+A program that stores this book information:
+Title, Author
+Year, ISBN
+
+User can:
+View all records
+Search an entry
+Add entry
+Update entry
+Delete
+Close
+
+
+Process:
+1. First built frontend
+2. Second built Backend
+3. Third connect frontend to backend
+4. Creating a Standalone Executable Version of the Program
+   by using a library pip install pyinstaller        to make a Standalone Executable files 
+
+   in cmd> pyinstaller --onefile --windowed frontend.py
+
+   when we run pyinstaller frontend.py you will get .exe file and along with that you will get a bunch of the all files related to this program.
+   but if you put --onefile it will create a single executable file containing all in one file.
+   
+   if this command is run in windows and linux terminal it will create .exe file and if this command is run in windows it will create .f file
+
+   when we execute this command then folder "dist" is created and inside this folder there is frontend.exe file
+
+   when we click on that .exe file the book.db is automatically gets generated inside that dist folder or we can put exesting book.db file in that folder and it will also work.
+
+
+Note = This .exe file we can send to anyone so that they just double click on .exe file and can use our program.
+       If they do not have python installed in there machine then also our program will work in their machine due to this .exe i.e Standalone Executable file.
+
+
