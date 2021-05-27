@@ -1,4 +1,4 @@
-<h1>Project = BookStore</h1>
+<h1>Project = BookStoreApp</h1>
 
 <p>The program that allows the user to store information about books.</p>
 <p>I have also build a executable file of this program i.e. (.exe) apart from building a .py file that we can run on windows.(you can see .exe file in "BookStore Application exe file" folder)</p>
